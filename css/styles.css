@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-button:nth-child(n+2)::before {
+    content: "·";
+    padding-right: 3px;
+    display: inline;
+}
+
+.category {
+    flex: 0 0 content;
+}
